@@ -16,10 +16,19 @@ spec:
   schema:
     required:
       - component_id
+      - repo_name
       - description
     properties:
       component_id:
         title: Name
         type: string
         description: Unique name of the component
+      repo_name:
+        title: Repository
+        type: string
+        description: Repo name of the component
       description:
+        title: Description
+        type: string
+        description: Description of the component
+      
